@@ -1,0 +1,1108 @@
+/* RESET */
+
+*{
+
+  box-sizing: border-box;
+
+  margin: 0px;
+
+  padding: 0px;
+
+}
+
+#primecontent {
+
+  width: 1349px;
+  height: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#body {
+
+  background-color: black;
+}
+
+
+/* Fontes */
+
+@font-face {
+
+  font-family: custom;
+
+  src: url(../fonts/custom.otf);
+
+}
+
+a:link,  a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+
+.centerImage {
+
+  text-align: center;
+}
+
+
+.centerObject {
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+h1 {
+
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family:  verdana;
+  color: white;
+
+
+}
+
+h2 {
+
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family:  verdana;
+  color: white;
+
+}
+
+p {
+
+  font-size: 18px;
+  font-family: verdana;
+  color: white;
+
+}
+
+
+ol {
+
+  font-size: 18px;
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  list-style: none;
+
+}
+
+
+.backgroundIMG {
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.contentLimit {
+
+  width: 700px;
+  min-height: 500px;
+  height: auto;
+  overflow: hidden;
+
+}
+
+/* Cabeçalho */
+
+#header1{
+
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+
+
+  position: fixed;
+
+
+}
+
+
+#facebook {
+
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+#linkedIn {
+
+  float: left;
+  height: auto;
+  width: auto;
+
+}
+
+
+#github {
+
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+#email  {
+
+  float: right;
+
+}
+
+#numero  {
+
+  float: right;
+
+  margin-right: 30px;
+
+}
+
+#numero p {
+
+  font-size: 12px;
+  color: white;
+}
+
+#email p {
+
+  font-size: 12px;
+  color: white;
+}
+
+#header2 {
+
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  margin-top: 55px;
+
+
+  position: fixed;
+
+
+}
+
+#Logo {
+
+  height: 150px;
+  width: 200px;
+  float: left;
+
+  padding-left: 20px;
+}
+
+nav {
+
+  height: 150px;
+  width: 1000px;
+
+  float: right;
+
+  padding-top: 40px;
+
+  padding-left: 50px;
+
+}
+
+
+.MenuItens {
+
+    width: 160px;
+    height: 70px;
+    border: 1px solid white;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: verdana;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: white;
+    list-style: none;
+
+}
+
+.MenuItens:hover{
+
+  width: 180px;
+  height: 85px;
+  background-color: #3F92BF;
+  transition: 0.2s;
+
+  cursor: pointer;
+
+}
+
+nav ul ul{
+
+  display: none;
+  margin-top: 40px;
+}
+
+
+nav ul li:hover > ul{
+
+  display: block;
+
+}
+
+.MenuSubtopicos {
+
+  width: 178px;
+  height: 80px;
+  text-align: center;
+  padding-top: 25px;
+  font-family: verdana;
+  font-size: 16px;
+  letter-spacing: 3px;
+  background-color: white;
+  color: black;
+  list-style: none;
+
+}
+
+.MenuSubtopicos:hover{
+
+  width: 178px;
+  height: 85px;
+  background-color: #3F92BF;
+  border: 1px solid white;
+  color: white;
+  transition: 0.2s;
+
+  cursor: pointer;
+
+}
+
+/* Conteúdo */
+
+
+#banner {
+
+    width: 100%;
+    height: 850px;
+
+    background-image: url(../images/paradox.jpg);
+
+    background-size: 100% 850px;
+
+    background-attachment: fixed;
+
+
+}
+
+/* Tópico 1 */
+
+#Definicao {
+
+background-color: black;
+
+  width: 1149px;
+  height: 350px;
+
+  padding-left: 20px;
+  padding-top: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 100px;
+
+
+}
+
+#definicaoTexto {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#definicaoTexto p, #definicaoTexto2 p {
+
+  text-align: justify;
+
+  padding-right: 20px;
+}
+
+#definicaoTexto2 {
+
+  width: 80%;
+
+  float: left;
+
+  padding-right: 20px;
+}
+
+#definicaoImagem {
+
+  width: 20%;
+
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+
+}
+
+
+
+#Origem {
+
+  background-color: black;
+  width: 1149px;
+  height: 350px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+
+#Origem h1 {
+
+  text-align: right;
+  padding-right: 20px;
+}
+
+#origemImagem {
+
+  width: 40%;
+  float: left;
+
+  padding-top: 20px;
+}
+
+#origemTexto {
+
+  width: 60%;
+
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 20px;
+  float: right;
+}
+
+#origemTexto p {
+
+  text-align: justify;
+}
+
+/* Tópico 2 */
+
+#title {
+
+  width: 100%;
+
+  height: 100px;
+
+  padding-top: 30px;
+
+  background-color: #5B5B5B;
+
+  text-align: center;
+
+  margin-bottom: 40px;
+
+
+}
+
+
+
+#TimeMachine {
+
+  width: 1149px;
+  height: 350px;
+  background-image: url(../images/timeparadox.jpg);
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+
+
+}
+
+#TimeMachine h1{
+
+  text-align: right;
+}
+
+#TimeMachineImagem {
+
+  width: 45%;
+  height: 450px;
+  float: left;
+
+}
+
+#TimeMachineTexto {
+
+  width: 55%;
+  height: 400px;
+  float: right;
+  padding-left: 80px;
+
+}
+
+#TimeMachineTexto p {
+
+   text-align: justify;
+}
+
+#BolaDeBilhar {
+
+  clear: both;
+  width: 1149px;
+  height: 380px;
+
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 100px;
+
+
+  background-image: url(../images/billard.jpg);
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+#BolaDeBilharTexto {
+
+  width: 65%;
+  height: 400px;
+
+  padding-left: 20px;
+  padding-right: 40px;
+
+
+  float: left;
+
+}
+
+#BolaDeBilharTexto p {
+
+  text-align: left;
+}
+
+#retorical {
+
+  margin-top: 20px;
+  font-size: 28px;
+
+}
+
+#BolaDeBilharImagem {
+
+  width: 35%;
+  height: 400px;
+  float: right;
+
+}
+
+#OvoGalinha {
+
+  width: 1149px;
+  height: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+  background-image: url(../images/ovoOuGalinha.jpg);
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+#OvoGalinhaImagem {
+
+  float: left;
+
+  width: 55%;
+  height: 500px;
+
+  padding-top: 40px;
+
+}
+
+#OvoGalinhaTexto {
+
+  float: right;
+  width: 45%;
+  height: 550px;
+
+
+
+}
+
+#OvoGalinhaTexto h1, p {
+
+  text-align: right;
+}
+
+/* Tópico 3 */
+
+#title2 {
+
+  width: 100%;
+
+  height: 100px;
+
+  padding-top: 30px;
+
+  background-color: #5B5B5B;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  text-align: center;
+
+}
+
+#DoctorWho {
+
+  width: 1149px;
+
+  height: 600px;
+
+  background-image: url(../images/Who.jpg);
+
+  background-size: cover;
+
+  background-attachment: fixed;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  overflow: hidden;
+
+}
+
+#DoctorWho h1 {
+
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+#DoctorWhoTexto p {
+
+  text-align: justify;
+
+
+}
+
+#DoctorWhoImagem {
+
+  float: left;
+  width: 30%;
+  height: 500px;
+}
+
+#DoctorWhoTexto {
+
+  float: right;
+
+  width: 70%;
+  height: 300px;
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+#DoctorWhoTexto2 {
+
+  width: 70%;
+  height: 200px;
+
+  padding-right: 20px;
+
+
+  float: left;
+
+}
+
+#DoctorWhoImagem2 {
+
+  width: 30%;
+  height: 200px;
+
+  float: right;
+
+  padding-top: 20px;
+}
+
+#HarryPotter {
+
+  width: 1149px;
+  height: 750px;
+
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+
+
+    background-image: url(../images/patronum.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#HarryPotter h1 {
+
+  text-align: center;
+  text-decoration: underline;
+}
+
+#HPTexto {
+
+  width: 100%;
+  height: 200px;
+
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+
+}
+
+#HPTexto p {
+
+  text-align: justify;
+}
+
+#HPImagem1 {
+
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+
+#HPImagem2 {
+
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+#SteinsGate {
+
+  width: 1149px;
+  height: 800px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../images/steins.jpg);
+
+  background-size: cover;
+
+  background-attachment: fixed;
+
+  padding: 20px;
+
+  margin-bottom: 100px;
+
+}
+
+#SteinsGate h1 {
+
+  text-align: center;
+
+  text-decoration: underline;
+
+}
+
+#SteinsGate p {
+
+  text-align: justify;
+}
+
+#SteinsGateTexto {
+
+  width: 55%;
+  height: 850px;
+
+  padding: 20px;
+
+  float: left;
+}
+
+#SteinsGateTexto a {
+  
+  color: cyan;
+  
+}
+#SteinsGateImagem {
+
+  width:45%;
+  height: 850px;
+
+  float: right;
+}
+
+#Pixar {
+
+  width: 1149px;
+
+  height: 1500px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+
+
+  background-image: url(../images/pixarbackground.png);
+
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#Pixar h1 {
+
+
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+
+.PixarImagem {
+
+  width: 50%;
+  height: 333px;
+
+  margin-bottom: 10px;
+}
+
+#PixarContainer {
+
+  width: 50%;
+  height: 1000px;
+
+  padding-left: 50px;
+
+  float: left;
+
+}
+
+#PixarTexto {
+
+  width: 50%;
+  height: 1000px;
+
+  padding-right: 40px;
+
+  float: right;
+}
+
+#PixarTexto p {
+
+  text-align: justify;
+}
+
+#DARK {
+
+  width: 1149px;
+
+  height: 1700px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../images/darkbackground.jpg);
+
+  background-size: cover;
+
+  background-attachment: fixed;
+
+  padding-top: 20px;
+
+
+}
+
+#DARK h1 {
+
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+#DARK h2 {
+
+  text-align: center;
+}
+
+#DarkBanner {
+
+  width: 100%;
+  height: 600px;
+
+  margin-top: 20px
+
+
+
+}
+
+#DarkTexto1 {
+
+
+  width: 100%;
+
+  height: 150px;
+
+  margin-top: 20px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#DarkTexto1 p {
+
+  text-align: justify;
+}
+
+#DarkTexto2 {
+
+  width: 45%;
+  height: 500px;
+  float: left;
+
+  margin-top: 20px;
+
+  padding-left: 20px;
+}
+
+
+#DarkTexto2 p {
+
+  text-align: left;
+
+}
+
+#DarkImagem {
+
+  width: 55%;
+  height: 500px;
+  float: right;
+}
+
+.darkimagem {
+
+  float: left;
+}
+
+
+#title3 {
+  
+  width: 100%;
+
+  height: 100px;
+
+  padding-top: 30px;
+
+  background-color: #5B5B5B;
+
+  margin-top: 20px;
+  
+  margin-bottom: 40px;
+
+  text-align: center;
+  
+}
+
+#science {
+  
+  width: 1149px;
+  height: 3150px;
+  
+
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-image: url(../images/scienceWallpaper.jpg);
+  
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+}
+
+#Termodinamica {
+  
+  width: 100%;
+  height: 1050px;
+  
+  padding: 20px;
+  padding-top: 30px;
+  
+
+}
+
+#Termodinamica h1 {
+  
+  text-decoration: underline;
+  height: 50px;
+}
+
+#Termodinamica p {
+  
+  text-align: left;
+}
+
+#TermodinamicaTexto {
+  
+  width: 75%;
+  height: 200px;
+  
+  float: left;
+  
+}
+
+#TermodinamicaImagem {
+  
+  width: 25%;
+  height: 200px;
+  
+  float: right;
+}
+
+#TermodinamicaImagem2 {
+  
+  width: 45%;
+  height: 600px;
+  
+  clear: both;
+  float: left;
+}
+
+#TermodinamicaTexto2 {
+  
+  width: 55%;
+  height: 600px;
+  
+  float: right;
+  
+  padding-left: 20px;
+}
+
+
+
+#WormHoles {
+  
+  width: 100%;
+  height: 1000px;
+  
+  padding: 20px;
+  
+
+  
+}
+
+#WormHolesTexto {
+  
+  width: 55%;
+  height: 100%;
+  
+  float: left;
+}
+
+#WormHolesTexto h1 {
+  
+  text-decoration: underline;
+  text-align: center;
+}
+
+#WormHolesTexto p {
+  
+  text-align: justify;
+}
+
+#WormHolesImagem {
+  
+  width: 45%;
+  height: 100%;
+  
+  float: right;
+}
+
+#Quantum {
+  
+  width: 100%;
+  height: 1000px;
+  
+  margin-top: 20px;
+  
+  padding: 20px;
+}
+
+#Quantum h1 {
+  
+  text-align: center;
+  text-decoration: underline;
+}
+
+#QuantumTexto {
+  
+  width: 100%;
+  height: 200px;
+}
+
+#QuantumTexto p {
+  
+  text-align: justify;
+}
+
+#QuantumImagem {
+  
+  width: 60%;
+  height: 800px;
+  float: left;
+  
+}
+
+#QuantumTexto2 {
+  
+  width: 40%;
+  height: 700px;
+  float: right;
+  
+}
+
+#QuantumTexto2 h1 {
+  
+  text-align: right;
+  text-decoration: none;
+  
+}
+
